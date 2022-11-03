@@ -1,0 +1,19 @@
+{
+    "name": "sylapi/omnipay-mokka",
+    "description": "Mokka gateway for Omnipay payment processing library",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "league/omnipay": "^3",
+        "omnipay/tests": "^4.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Omnipay\\Mokka\\": "src"
+      }
+    },
+    "scripts": {
+      "phpstan": "vendor/bin/phpstan",
+      "tests": "vendor/bin/phpunit"
+    }     
+}
