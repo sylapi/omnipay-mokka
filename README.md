@@ -1,4 +1,4 @@
-# Omnipay: PayPo
+# Omnipay: Mokka
 
 ![PHPStan](https://img.shields.io/badge/PHPStan-level%205-brightgreen.svg?style=flat)
 
