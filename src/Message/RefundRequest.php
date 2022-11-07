@@ -8,7 +8,7 @@ use GuzzleHttp\Psr7;
 
 class RefundRequest extends \Omnipay\Common\Message\AbstractRequest
 {
-    const API_PATH = '/factoring/v1/status';
+    const API_PATH = '/factoring/v1/return';
 
     use Trait\Request;
 
