@@ -40,7 +40,7 @@ trait Request {
         if ($this->getTestMode()) {
             return 'https://stage-backend.mokka.ro';
         } else {
-            return 'https://stage-backend.mokka.ro';
+            return 'https://b.mokka.ro';
         }
     }
 
