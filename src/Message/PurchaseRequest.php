@@ -46,6 +46,7 @@ class PurchaseRequest extends \Omnipay\Common\Message\AbstractRequest
             'redirect_url' => $this->getReturnUrl(),
             'primary_phone' => $this->getPhone(),
             'primary_email' => $this->getEmail(),
+            'iframe_kind' => 'page',
             'current_order' => [
                 'order_id' => $this->getTransactionReference(),
                 'amount' => $this->getAmount()
