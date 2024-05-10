@@ -5,17 +5,12 @@
     "license": "MIT",
     "require": {
         "league/omnipay": "^3",
-        "omnipay/tests": "^4.1",
         "http-interop/http-factory-guzzle": "^1.2"
     },
     "autoload": {
       "psr-4": {
         "Omnipay\\Mokka\\": "src"
       }
-    },
-    "scripts": {
-      "phpstan": "vendor/bin/phpstan",
-      "tests": "vendor/bin/phpunit"
     },
     "config": {
         "allow-plugins": {
